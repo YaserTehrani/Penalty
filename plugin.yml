@@ -1,0 +1,21 @@
+name: Penalty
+author: Yaser
+main: Yaser\Penalty\Main
+api: 3.0.0
+version: 1.2.0
+
+depend:
+- EconomyAPI
+
+permissions:
+ penalty.use:
+  description: Allows player to Penalty other players
+  default: op
+
+commands:
+  penalty:
+    description: "penalty A Player"
+    usage: /penalty
+    permission: penalty.use
+    
+     
